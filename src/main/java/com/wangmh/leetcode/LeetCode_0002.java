@@ -12,7 +12,25 @@ import com.wangmh.ListNode;
  * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+
+public class LeetCode_0002 {
+
+    public static void main(String[] args) {
+        Solution_0002 solution = new Solution_0002();
+        ListNode listNode1 = new ListNode(2);
+        listNode1.next = new ListNode(4);
+        listNode1.next.next = new ListNode(3);
+
+        ListNode listNode2 = new ListNode(5);
+        listNode2.next = new ListNode(6);
+        listNode2.next.next = new ListNode(4);
+
+        ListNode listNode = solution.addTwoNumbers(listNode1, listNode2);
+        listNode.printListNode(listNode);
+    }
+}
+
+class Solution_0002 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (null == l1 && null == l2) return null;
         if (null == l1) return l2;
@@ -37,22 +55,4 @@ class Solution {
         }
         return dummy.next;
     }
-}
-
-public class LeetCode_0002 {
-
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        ListNode listNode1 = new ListNode(2);
-        listNode1.next = new ListNode(4);
-        listNode1.next.next = new ListNode(3);
-
-        ListNode listNode2 = new ListNode(5);
-        listNode2.next = new ListNode(6);
-        listNode2.next.next = new ListNode(4);
-
-        ListNode listNode = solution.addTwoNumbers(listNode1, listNode2);
-        listNode.printListNode(listNode);
-    }
-
 }
