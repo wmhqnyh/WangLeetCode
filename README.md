@@ -16,3 +16,7 @@
 #### 双指针
 
 1. LeetCode_0011 盛水最多的容器 (https://leetcode.cn/problems/container-with-most-water/)
+
+#### 栈
+
+1. 有效的括号 (https://leetcode.cn/problems/valid-parentheses/)
