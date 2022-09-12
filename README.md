@@ -24,3 +24,7 @@
 #### 动态规划DP
 
 1. 最大子数组和 (https://leetcode.cn/problems/maximum-subarray/)
+
+#### StringBuilder
+
+1. Z字型变换 (https://leetcode.cn/problems/zigzag-conversion/)
