@@ -28,3 +28,7 @@
 #### StringBuilder
 
 1. Z字型变换 (https://leetcode.cn/problems/zigzag-conversion/)
+
+#### Other
+
+1. 多线程打印
