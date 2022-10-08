@@ -32,3 +32,7 @@
 #### Other
 
 1. 多线程打印
+
+#### 前缀
+
+1. LeetCode_0014 最长公共前缀 (https://leetcode.cn/problems/longest-common-prefix/)
